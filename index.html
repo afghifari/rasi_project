@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Creative - Start Bootstrap Theme</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.css" rel="stylesheet">
+
+</head>
+
+<body id="page-top">
+
+    <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand page-scroll" href="#page-top">
+                    <img src="img/ra.png" width="20%">
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a class="page-scroll" href="#about">Bantu !</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#donateme">Donate Me</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#rekapdana">Rekap Dana</a>
+                    </li>
+                    <li>
+                        <a class="page-scroll" href="#contact">Login</a>
+                    </li>
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container-fluid -->
+    </nav>
+
+    <header>
+        <div class="header-content">
+            <div class="header-content-inner">
+                <h1 id="homeHeading">Rumah Amal Salman ITB</h1>
+                <hr>
+                <p>Salurkan bantuan anda kepada Rumah Amal Salman ITB. Rumah Amal Salam ITB menerima sumbangan
+                    online serta menerima permintaan sumbangan untuk membantu masyarakat yang membutuhkan..</p>
+                <a href="#about" class="btn btn-primary btn-xl page-scroll">Bantu Orang !</a>
+            </div>
+        </div>
+    </header>
+
+    <section class="bg-primary" id="about">
+        <div class="container">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <h1>Donasi</h1>
+                <form>
+                    <div class="formDonation">
+                        <input class="donate" type="text" placeholder="123.345.324" name="sumdonation" required>
+                        <input type="text" placeholder="Nama Lengkap" name="name" required>
+                        <input type="text" placeholder="Alamat Email" name="email" required>
+                    </div>
+                    <h2>Pilih Metode Pembayaran</h2>
+
+                    <table class="tableDonate" align="center">
+                        <tr>
+                            <td><input type="radio" name="transfer" value="card" checked> Credit Card</td>
+                            <td><input type="radio" name="transfer" value="bnisyariah"> Transfer BNI Syariah</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="transfer" value="bca"> Transfer BCA</td>
+                            <td><input type="radio" name="transfer" value="bri"> Transfer BRI</td>
+                        </tr>
+                        <tr>
+                            <td><input type="radio" name="transfer" value="bni"> Transfer BNI</td>
+                            <td><input type="radio" name="transfer" value="mandiri"> Transfer Mandiri</td>
+                        </tr>
+                        
+                    </table>
+                    <br>
+                    <table class="tableCheckbox" align="center">
+                        <tr>
+                            <td><input type="checkbox" name="agreement" value="agree"> Saya mempercayai Rumah Amal Salman ITB dan setuju dengan 
+                        <a class="linksyarat" href="#">Syarat & Ketentuan Donasi</a> di Rumah Amal Salman ITB</input></td>
+                        </tr>
+                    </table>
+                    <br>
+                    <button type="submit">Submit</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="donateMe" id="donateme">
+        <div class="container">
+            <div class="col-lg-8 col-lg-offset-2 text-center">
+                <H1>Donate Me</H1>
+                <h2>Formulir Permohonan Sumbangan</h2>
+                <form>
+                    <table class="tableDonateMe">
+                        <tr>
+                            <td width="405px" style="padding: 0 15px 0 5px;"><input type="text" placeholder="Nama Lengkap" name="name" required></td>
+                            <td style="padding-left: 15px; padding-right: 2px;" rowspan="2" colspan="2" ><textarea cols="35" rows="4" name="masalah" placeholder="Deskripsikan permasalahan anda disini"></textarea></td>
+                        </tr>
+                        <tr>
+                            <td width="405px" style="padding: 0 15px 0 5px;"><input type="text" placeholder="No. Identitas (KTP/SIM)" name="id" required></td>
+                        </tr>
+                        <tr>
+                            <td width="405px" style="padding: 0 15px 0 5px;"><input type="text" placeholder="Alamat" name="alamat" required></td>
+                            <td style="padding-left: 15px;padding-right: 2px;" colspan="2"><input type="email" placeholder="Email" name="email" required></td>
+                        </tr>
+                        <tr>
+                            <td width="405px" style="padding: 0 15px 0 5px;"><input type="text" placeholder="Kota" name="kota" required></td>
+                            <td style="padding-left: 15px;padding-right: 2px;" colspan="2"><input type="text" placeholder="No. telepon (HP)" name="hp" required></td>
+                        </tr>
+                        <tr>
+                            <td width="405px" style="padding: 0 15px 0 5px;"><input type="text" placeholder="Provinsi" name="provinsi" required></td>
+                            <td style="padding-left: 15px;padding-right: 2px;"><input type="text" placeholder="No. Rekening" name="rekening" required></td>
+                            <td style="padding-left: 8px;padding-right: 2px;"><input type="text" placeholder="Nama Bank" name="bank" required></td>
+                        </tr>
+                        <tr>
+                            <td width="405px" style="padding: 0 15px 0 5px;"><input type="text" placeholder="Tempat dan Tanggal Lahir" name="ttl" required></td>
+                            <td style="padding-left: 15px;padding-right: 2px;" colspan="2"><input class="donate" type="text" placeholder="123.345.324" name="donatesum" required></td>
+                        </tr>
+                        <tr>
+                            <td width="405px" style="padding: 0 15px 0 5px;"><input type="file" name="filefoto"><div class="textfotokondisi"> Unggah foto kondisi disini (.jpg/.png)</div></td>
+                            
+                        </tr>
+                        <tr>
+                            <td width="405px" style="padding: 0 15px 0 5px;" colspan="3"><button type="submit" class="classBtn">Submit</button></td>
+                        </tr>
+                    </table>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <section class="rekapDana" id="rekapdana">
+        <div class="header-content">
+            <div class="header-content-inner">
+               <p class="rekapPcss">Rekap Dana</p> <br><br><br><br><br>
+               <table class="tableRekapDana">
+                   <tr>
+                       <td class="innerCelsRekapDana" width="50%" colspan="3">Total Dana Terkumpul</td>
+                       <td width="50%" colspan="2"><div class="divSalurkan">Salurkan Bantuan</div></td>
+                   </tr>
+                   <tr>
+                       <td width="10%"></td>
+                       <td class="innerCelsNum"><div class="teksInnerCelsNum"> Rp. 423.321.234 </div></td>
+                       <td width="10%"></td>
+                       <td width="30%"><div class="divSalurkan">anda melalui</div></td>
+                       <td class="bgRASI" width="50%" rowspan="3"></td>
+                   </tr>
+                   <tr>
+                       <td style="padding-top: 10px" class="innerCelsRekapDana" width="50%" colspan="3">Total Dana Tersalurkan</td>
+                       <td width="30%"><div class="divSalurkan">Rumah Amal</div></td>
+                   </tr>
+                   <tr>
+                       <td width="10%"></td>
+                       <td class="innerCelsNum"><div class="teksInnerCelsNum"> Rp. 123.321.234 </div></td>
+                       <td width="10%"></td>
+                       <td width="30%"><div class="divSalurkan">Salman ITB</div></td>
+                   </tr>
+               </table>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+
+        <table class="tableFooter">
+            <tr>
+                <td><b>Kantor Pusat</b></td>
+                <td style="text-align: right;">Copyright &copy; 2017 Rumah Amal Salman ITB</td>
+            </tr>
+            <tr>
+                <td>Jl. Ganesa No. 7 Bandung</td>
+                <td style="text-align: right">SI-XV Developer Team</td>
+            </tr>
+            <tr>
+                <td>Telp. (022) 76624126 | Fax. (022) 2500042</td>
+            </tr>
+        </table>
+    </footer>
+
+    <!-- jQuery -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.3/jquery.easing.min.js"></script>
+    <script src="vendor/scrollreveal/scrollreveal.min.js"></script>
+    <script src="vendor/magnific-popup/jquery.magnific-popup.min.js"></script>
+
+    <!-- Theme JavaScript -->
+    <script src="js/creative.js"></script>
+
+</body>
+
+</html>
